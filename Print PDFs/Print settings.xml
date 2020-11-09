@@ -1,0 +1,11 @@
+  <appSettings>
+    <add key="LastPageOnly" value="true"/>
+    
+    <!--If LastPageOnly is set to TRUE following will be ignored-->
+    <!--In case you do need to print exact pages - set LastPageOnly to false, then set pages numbers-->
+    <add key="Whole" value="false"/>
+    <add key="StartPage" value=""/>
+    
+    <!--Parameter will be overwritten if it is greater then total count of pages-->
+    <add key="EndPage" value=""/>
+  </appSettings>

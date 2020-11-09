@@ -1,0 +1,10 @@
+  <appSettings>
+    <add key="LastPageOnly" value="true"/>
+    
+    <!--If LastPageOnly is set to TRUE following will be ignored-->
+    <add key="Whole" value="false"/>
+    <add key="StartPage" value=""/>
+    
+    <!--Parameter will be overwritten if it is greater then total count of pages-->
+    <add key="EndPage" value=""/>
+  </appSettings>
